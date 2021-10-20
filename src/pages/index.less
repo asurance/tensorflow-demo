@@ -1,3 +1,22 @@
-.title {
-  background: rgb(121, 242, 157);
+.index {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.predict {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 4em;
+      span {
+        margin: 0.2em;
+      }
+    }
+  }
+  .footer {
+    text-align: center;
+    padding: 1em 0;
+    .ant-btn {
+      margin: 0 1em;
+    }
+  }
 }
